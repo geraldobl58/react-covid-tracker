@@ -44,7 +44,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">
               {new Date(lastUpdate).toLocaleDateString('pt-br')}
             </Typography>
-            <Typography variant="body2">Recuperados do COVID-19</Typography>
           </CardContent>
         </Grid>
 
@@ -70,7 +69,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">
               {new Date(lastUpdate).toLocaleDateString('pt-br')}
             </Typography>
-            <Typography variant="body2">Recuperados do COVID-19</Typography>
           </CardContent>
         </Grid>
 
@@ -96,7 +94,6 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
             <Typography color="textSecondary">
               {new Date(lastUpdate).toLocaleDateString('pt-br')}
             </Typography>
-            <Typography variant="body2">Recuperados do COVID-19</Typography>
           </CardContent>
         </Grid>
       </Grid>
